@@ -9,12 +9,39 @@ $(document).ready(()=>{
         });
     })
 
-    var usuario = {
-        "name":"Andres Lopez",
-        "web" : "andreslopez.com"
-    }
+    $('#formulario').submit(function(e){
+        e.preventDefault();
+        var usuario = {
+            "name": $('input[name="name"]').val(),
+            "web" : $('input[name="web"]').val(),
+        }
+    
+        console.log(usuario);
+    
+        // $.post($(this).attr("action"), usuario, function(response){
+        //     console.log(response);
+        // }).done(function(){
+        //     alert("Usuario añadido correctamente");
+        // });
 
-    $.post("https://reqres.in/api/users", usuario, function(response){
-        console.log(response);
-    })
+        $.ajax({
+            type: 'POST',
+            // dataType: 'json',
+            // contectType: 'application/json',
+            url: $(this).attr("action"),
+            data: usuario,
+            beforeSend: function(){
+                console.log("enviando usuario...");
+            },
+            success: function(response){
+                console.log(response);
+            },
+            error: function(){
+                console.log("Ha ocurrido un error");
+            },
+            timeout: 5000
+        });
+
+        return false;
+    });
 });
