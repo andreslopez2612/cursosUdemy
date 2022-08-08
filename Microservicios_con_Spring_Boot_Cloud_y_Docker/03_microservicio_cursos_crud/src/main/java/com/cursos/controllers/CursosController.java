@@ -52,7 +52,7 @@ public class CursosController {
         return cursos;
     }
 
-    @PostMapping(value="curso",consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE)
+    @PutMapping(value="curso",consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE)
     public List<Curso> actualizaCurso(@RequestBody Curso curso){
         for(int i = 0;i<cursos.size();i++){
             if(cursos.get(i).getNombre().equals(curso.getNombre())){
