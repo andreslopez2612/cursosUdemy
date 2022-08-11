@@ -3,12 +3,14 @@ package com.inicio.services.impl;
 import com.inicio.daos.AgendaDao;
 import com.inicio.model.Contacto;
 import com.inicio.services.AgendaService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 
 @Service
 public class AgendaServiceImpl implements AgendaService {
+    @Autowired
     AgendaDao dao;
 
     @Override
