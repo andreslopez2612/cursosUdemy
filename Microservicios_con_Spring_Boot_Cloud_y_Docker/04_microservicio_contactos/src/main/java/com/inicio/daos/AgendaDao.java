@@ -13,6 +13,8 @@ public interface AgendaDao {
 
     List<Contacto> devolverContactoList();
 
+    void eliminarContacto(int idContacto);
+
     Contacto recuperarContacto(int idContacto);
 
     void actualizarContacto(Contacto contacto);

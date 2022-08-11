@@ -35,6 +35,11 @@ public class AgendaDaoImpl implements AgendaDao {
     }
 
     @Override
+    public void eliminarContacto(int idContacto) {
+        agendaJpaSpring.deleteById(idContacto);
+    }
+
+    @Override
     public Contacto recuperarContacto(int idContacto) {
         return agendaJpaSpring.findById(idContacto).orElse(null);
     }

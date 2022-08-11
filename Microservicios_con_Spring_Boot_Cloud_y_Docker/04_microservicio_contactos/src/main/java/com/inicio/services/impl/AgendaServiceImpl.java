@@ -37,7 +37,7 @@ public class AgendaServiceImpl implements AgendaService {
     @Override
     public boolean eliminarContacto(int idContacto) {
         if(dao.recuperarContacto(idContacto)!=null){
-            dao.recuperarContacto(idContacto);
+            dao.eliminarContacto(idContacto);
             return true;
         }
         return false;
