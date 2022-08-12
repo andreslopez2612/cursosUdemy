@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PersistenceUnitSettings">
+    <persistence-units>
+      <persistence-unit name="agenda2">
+        <packages>
+          <package value="com.inicio" />
+          <package value="" />
+        </packages>
+      </persistence-unit>
+      <persistence-unit name="Default" />
+    </persistence-units>
+  </component>
+</project>
