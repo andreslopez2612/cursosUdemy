@@ -24,6 +24,11 @@ public class AgendaServiceImpl implements AgendaService {
 
     @Override
     public List<Contacto> recuperarContactos() {
+    	try {
+    		Thread.sleep(8000);
+    	}catch (InterruptedException e){
+    		e.printStackTrace();
+    	}    	
         return dao.devolverContactoList();
     }
 
