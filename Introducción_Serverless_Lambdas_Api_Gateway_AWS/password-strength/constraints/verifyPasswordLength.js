@@ -1,5 +1,5 @@
 module.exports = password => {
-    if(password.length < 6){
+    if (password.length < 6) {
         return Promise.reject({
             message: 'El password es demasiado corto'
         });
