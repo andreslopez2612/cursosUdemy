@@ -12,5 +12,8 @@
   "dependencies": {
     "serverless-offline": "^9.2.6",
     "zxcvbn": "^4.4.2"
+  },
+  "devDependencies": {
+    "serverless-plugin-include-dependencies": "^5.0.0"
   }
 }

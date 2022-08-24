@@ -26,6 +26,13 @@ provider:
 
 plugins:
   - serverless-offline
+  - serverless-plugin-include-dependencies
+
+package:
+  exclude:
+    - node_moduñes/**
+
+stage: dev
 # you can overwrite defaults here
 #  stage: dev
 #  region: us-east-1
