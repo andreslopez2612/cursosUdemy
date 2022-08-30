@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="cursos-sls-hola-mundo">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/.serverless/cursos-sls-hola-mundo.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
