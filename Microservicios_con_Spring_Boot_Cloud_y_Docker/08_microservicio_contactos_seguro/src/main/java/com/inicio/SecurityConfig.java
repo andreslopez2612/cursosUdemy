@@ -1,5 +1,7 @@
 package com.inicio;
 
+import com.inicio.utils.JWTAuthorizationFilter;
+import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpMethod;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
@@ -14,6 +16,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     /**
      * Definicion de roles y usuarios
      */
+    @Bean
     @Override
     protected void configure(AuthenticationManagerBuilder auth) throws Exception {
         auth
@@ -61,6 +64,6 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 //.antMatchers("/**").authenticated()
                 //.antMatchers("/contactos/**").authenticated()
                 .and()
-                .httpBasic();
+                .addFilter(new JWTAuthorizationFilter(authenticationManager()));
     }
 }
