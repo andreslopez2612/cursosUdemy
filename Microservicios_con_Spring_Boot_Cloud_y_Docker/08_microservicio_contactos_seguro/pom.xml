@@ -10,9 +10,9 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.inicio</groupId>
-	<artifactId>07_microservicio_contactos_seguro</artifactId>
+	<artifactId>08_microservicio_contactos_seguro</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>07_microservicio_contactos_seguro</name>
+	<name>08_microservicio_contactos_seguro</name>
 	<description>Microservicio Ejemplo</description>
 	<properties>
 		<java.version>1.8</java.version>
