@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bc0eb358-7a45-41e8-ace7-730b2d59171c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/cfn/event.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/cfn/event_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/cfn/response.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/cfn/response_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/cfn/wrap.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/cfn/wrap_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/cmd/build-lambda-zip/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/cmd/build-lambda-zip/main_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/cmd/build-lambda-zip/testdata/apigw.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/cmd/build-lambda-zip/testdata/noop.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/events/activemq.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/events/activemq_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/events/alb.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/events/alb_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/events/apigw.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/events/apigw_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/events/appsync.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/events/appsync_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/events/attributevalue.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/events/attributevalue_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/events/autoscaling.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/events/autoscaling_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/events/chime_bot.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/events/chime_bot_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/events/clientvpn.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/events/clientvpn_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/events/cloudwatch_events.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/events/cloudwatch_events_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/events/cloudwatch_logs.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/events/cloudwatch_logs_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/events/code_commit.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/events/code_commit_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/events/codebuild.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/events/codebuild_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/events/codedeploy.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/events/codedeploy_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/events/codepipeline.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/events/codepipeline_cloudwatch.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/events/codepipeline_cloudwatch_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/events/codepipeline_job.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/events/codepipeline_job_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/events/codepipeline_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/events/cognito.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/events/cognito_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/events/config.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/events/config_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/events/connect.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/events/connect_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/events/duration.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/events/dynamodb.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/events/dynamodb_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/events/ecr_scan.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/events/ecr_scan_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/events/epoch_time.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/events/epoch_time_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/events/firehose.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/events/firehose_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/events/iam.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/events/iot.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/events/iot_1_click.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/events/iot_1_click_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/events/iot_button.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/events/iot_button_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/events/iot_deprecated.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/events/iot_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/events/kafka.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/events/kafka_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/events/kinesis.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/events/kinesis_analytics.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/events/kinesis_analytics_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/events/kinesis_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/events/lambda_function_urls.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/events/lambda_function_urls_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/events/lex.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/events/lex_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/events/rabbitmq.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/events/rabbitmq_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/events/s3.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/events/s3_batch_job.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/events/s3_batch_job_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/events/s3_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/events/ses.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/events/ses_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/events/sns.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/events/sns_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/events/sqs.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/events/sqs_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/events/streams.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/events/test/assert.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/events/test/jsonblobs.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/events/test/jsoncompare.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/events/test/jsonsyntax.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/events/test/readjson.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/events/time_window.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/lambda/entry.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/lambda/entry_generic.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/lambda/entry_generic_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/lambda/entry_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/lambda/entry_with_no_rpc_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/lambda/entry_with_rpc_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/lambda/errors.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/lambda/extensions_api_client.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/lambda/handler.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/lambda/handler_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/lambda/handlertrace/trace.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/lambda/invoke_loop.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/lambda/invoke_loop_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/lambda/messages/messages.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/lambda/panic.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/lambda/panic_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/lambda/rpc_function.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/lambda/rpc_function_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/lambda/runtime_api_client.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/lambda/runtime_api_client_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/lambda/sigterm.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/lambda/sigterm_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/lambda/testdata/echo_handler.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/lambda/testdata/sigterm.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/aws/aws-lambda-go@v1.36.0/lambdacontext/context.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/davecgh/go-spew@v1.1.1/spew/bypass.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/davecgh/go-spew@v1.1.1/spew/bypasssafe.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/davecgh/go-spew@v1.1.1/spew/common.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/davecgh/go-spew@v1.1.1/spew/common_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/davecgh/go-spew@v1.1.1/spew/config.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/davecgh/go-spew@v1.1.1/spew/doc.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/davecgh/go-spew@v1.1.1/spew/dump.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/davecgh/go-spew@v1.1.1/spew/dump_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/davecgh/go-spew@v1.1.1/spew/dumpcgo_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/davecgh/go-spew@v1.1.1/spew/dumpnocgo_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/davecgh/go-spew@v1.1.1/spew/example_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/davecgh/go-spew@v1.1.1/spew/format.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/davecgh/go-spew@v1.1.1/spew/format_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/davecgh/go-spew@v1.1.1/spew/internal_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/davecgh/go-spew@v1.1.1/spew/internalunsafe_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/davecgh/go-spew@v1.1.1/spew/spew.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/davecgh/go-spew@v1.1.1/spew/spew_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/davecgh/go-spew@v1.1.1/spew/testdata/dumpcgo.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/stretchr/testify@v1.7.2/assert/assertion_compare.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/stretchr/testify@v1.7.2/assert/assertion_compare_can_convert.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/stretchr/testify@v1.7.2/assert/assertion_compare_go1.17_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/stretchr/testify@v1.7.2/assert/assertion_compare_legacy.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/stretchr/testify@v1.7.2/assert/assertion_compare_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/stretchr/testify@v1.7.2/assert/assertion_format.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/stretchr/testify@v1.7.2/assert/assertion_forward.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/stretchr/testify@v1.7.2/assert/assertion_order.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/stretchr/testify@v1.7.2/assert/assertion_order_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/stretchr/testify@v1.7.2/assert/assertions.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/stretchr/testify@v1.7.2/assert/assertions_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/stretchr/testify@v1.7.2/assert/doc.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/stretchr/testify@v1.7.2/assert/errors.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/stretchr/testify@v1.7.2/assert/forward_assertions.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/stretchr/testify@v1.7.2/assert/forward_assertions_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/stretchr/testify@v1.7.2/assert/http_assertions.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/stretchr/testify@v1.7.2/assert/http_assertions_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/stretchr/testify@v1.7.2/doc.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/stretchr/testify@v1.7.2/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/stretchr/testify@v1.7.2/http/doc.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/stretchr/testify@v1.7.2/http/test_response_writer.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/stretchr/testify@v1.7.2/http/test_round_tripper.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/stretchr/testify@v1.7.2/mock/doc.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/stretchr/testify@v1.7.2/mock/mock.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/stretchr/testify@v1.7.2/mock/mock_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/stretchr/testify@v1.7.2/package_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/stretchr/testify@v1.7.2/require/doc.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/stretchr/testify@v1.7.2/require/forward_requirements.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/stretchr/testify@v1.7.2/require/forward_requirements_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/stretchr/testify@v1.7.2/require/require.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/stretchr/testify@v1.7.2/require/require_forward.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/stretchr/testify@v1.7.2/require/requirements.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/stretchr/testify@v1.7.2/require/requirements_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/stretchr/testify@v1.7.2/suite/doc.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/stretchr/testify@v1.7.2/suite/interfaces.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/stretchr/testify@v1.7.2/suite/stats.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/stretchr/testify@v1.7.2/suite/stats_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/stretchr/testify@v1.7.2/suite/suite.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/github.com/stretchr/testify@v1.7.2/suite/suite_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/gopkg.in/yaml.v3@v3.0.1/apic.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/gopkg.in/yaml.v3@v3.0.1/decode.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/gopkg.in/yaml.v3@v3.0.1/decode_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/gopkg.in/yaml.v3@v3.0.1/emitterc.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/gopkg.in/yaml.v3@v3.0.1/encode.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/gopkg.in/yaml.v3@v3.0.1/encode_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/gopkg.in/yaml.v3@v3.0.1/example_embedded_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/gopkg.in/yaml.v3@v3.0.1/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/gopkg.in/yaml.v3@v3.0.1/limit_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/gopkg.in/yaml.v3@v3.0.1/node_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/gopkg.in/yaml.v3@v3.0.1/parserc.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/gopkg.in/yaml.v3@v3.0.1/readerc.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/gopkg.in/yaml.v3@v3.0.1/resolve.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/gopkg.in/yaml.v3@v3.0.1/scannerc.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/gopkg.in/yaml.v3@v3.0.1/sorter.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/gopkg.in/yaml.v3@v3.0.1/suite_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/gopkg.in/yaml.v3@v3.0.1/writerc.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/gopkg.in/yaml.v3@v3.0.1/yaml.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/gopkg.in/yaml.v3@v3.0.1/yamlh.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../pkg/mod/gopkg.in/yaml.v3@v3.0.1/yamlprivateh.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/lambdas.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/constans/constans.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/db/dynamodb.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/connect/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/disconnect/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/injections.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log/logger.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/websocket/websocket.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/repositories/websocket/websoacket.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/websocket/websocket.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/http.go" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" url="file://$PROJECT_DIR$/../../../../../../Program Files/Go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="GoLibraries">
+    <option name="urls">
+      <list>
+        <option value="file://$PROJECT_DIR$/../../.." />
+      </list>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/go.mod" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2JBVkXXZthUDndU3pt3i5iQjWPJ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;configurable..is.expanded&quot;: &quot;false&quot;,
+    &quot;configurable.GoLibrariesConfigurable.is.expanded&quot;: &quot;true&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Proyectos/cursosUdemy/go/src/CursosWebsoacketsAWS-Terraform-Golang/lambdas&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="lambdas" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="lambdas" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="DIRECTORY" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="VgoProject">
+    <settings-migrated>true</settings-migrated>
+  </component>
+</project>
